@@ -1,0 +1,12 @@
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer nav {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-bottom: 1rem;
+}

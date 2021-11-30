@@ -1,0 +1,9 @@
+.employee-app-link {
+  text-decoration: none;
+  color: white;
+}
+
+.employee-app-header nav {
+  background-color: #404040;
+  padding: 1rem;
+}

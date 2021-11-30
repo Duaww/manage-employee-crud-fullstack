@@ -1,0 +1,67 @@
+.body-form-add {
+  /* display: flex; */
+  margin-top: 2.5rem;
+}
+
+.form-add {
+  border: 1px solid rgb(187, 185, 185);
+  width: 40%;
+  border-radius: 5px;
+  height: 22rem;
+  margin: auto;
+}
+
+.form-add h2 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.form-add form label {
+  display: block;
+  text-align: left;
+  padding-left: 8%;
+  margin-bottom: 0.5rem;
+}
+.form-add form input {
+  width: 80%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.form-add form input:focus {
+  box-shadow: 0 0 3pt 1pt #4da6ff;
+  background-color: #e6f3ff;
+  outline-width: 0px;
+}
+
+.save-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  padding: 0.5rem 0.6rem;
+  margin-right: 0.5rem;
+  opacity: 0.8;
+}
+
+.div-btn {
+  float: left;
+  padding-left: 8%;
+}
+
+.cancle-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  padding: 0.5rem 0.6rem;
+  opacity: 0.8;
+}
+
+.cancle-btn:hover,
+.save-btn:hover {
+  opacity: 1;
+}
